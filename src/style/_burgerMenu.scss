@@ -1,0 +1,123 @@
+.burger {
+
+    // .burger__btns
+
+    &__btns {
+        display: none;
+
+        @media(max-width: 1130px) {
+            display: flex;
+            align-items: center;
+            gap: 0px 31px;
+        }
+    }
+
+    // .burger__btns-connection
+
+    &__btns-connection {
+        display: flex;
+        gap: 15px;
+    }
+
+    // .burger__btn-connection
+
+    &__btn-connection {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    // .burger__btn
+
+    &__btn {
+        max-width: 35px;
+        max-height: 35px;
+		cursor: pointer;
+    }
+ 
+    // .burger__menu
+
+    &__menu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -300%;
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px 0px 0px 0px;
+        z-index: 100;
+        box-shadow: -5px -5px 5px -2px rgba(34, 60, 80, 0.6);
+        transition: all .6s ease;
+
+        // .burger__menu-active
+
+        &-active {
+            right: 0;
+        }
+    }
+
+    // .burger__menu-close
+
+    &__menu-close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin: 0px 0px 30px 20px;
+        max-width: 35px;
+        max-height: 35px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+
+        &:hover {
+            transform: rotate(45deg);
+            transition: all .3s ease;
+        }
+
+    }
+
+    // .burger__menu-content
+
+    &__menu-content {
+        text-align: center;
+        max-width: 485px;
+        margin:  0 auto;
+    }
+
+    // .burger__menu-list
+
+    &__menu-list {
+        margin: 0px 0px 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    // .burger__menu-item
+
+    &__menu-item {
+        font-weight: 500;
+    }
+
+    // .burger__menu-socials
+
+    &__menu-socials {
+        margin: 0px 0px 30px 0px;
+    }
+
+    // .burger__menu-img
+
+    &__menu-img {
+        margin: 0 auto;
+        max-width: 100px;
+        max-height: 100px;
+    }
+   
+}
+
