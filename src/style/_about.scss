@@ -1,0 +1,361 @@
+.about {
+
+    // .about__row
+
+    &__row {
+        align-items: center;
+        gap: 30px 80px;
+    }
+
+    // .about__list
+
+    &__list {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        @media (max-width: 768px) {
+            gap: 5px;
+        }
+    }
+
+    // .about__item
+
+    &__item {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 161px;
+        max-width: 161px;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: inset 0px 0px 60px #3ac8ba;
+        border-radius: 8px;
+        
+        @media (max-width: 768px) {
+            min-width: 68px;
+            max-width: 68px;
+            min-height: 80px;
+        }
+    }
+
+    // .about__item-img
+
+    &__item-img {
+        margin: 0px 0px 15px 0px;
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    // .about__item-text
+
+    &__item-text {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        // max-width: 150px;
+
+        @media (max-width: 768px) {
+            font-weight: 500;
+            font-size: 8px;
+            line-height: 120%;
+        }
+    }
+
+    // .about__item-taxes
+
+    // .about__item-taxes {
+    //     padding: 15px 34px 22px 34px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 4px 3px 6px 3px;
+    //     }
+        
+    //     // .about__item-taxes--img
+
+    //     &-img {
+    //         margin: 0px 0px 17px 0px;
+    //         max-width: 92px;
+    //         max-height: 70px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 9px 0px;
+    //             max-width: 46px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-taxes--text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 60px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-fss
+
+    // .about__item-fss {
+    //     padding: 17px 32px 22px 32px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 4px 4px 17px 4px;
+    //     }
+        
+    //     // .about__item-taxes-img
+
+    //     &-img {
+    //         margin: 0px 0px 12px 0px;
+    //         max-width: 95px;
+    //         max-height: 72px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 9px 0px;
+    //             max-width: 43px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-fss-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 59px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-pension
+
+    // .about__item-pension {
+    //     padding: 17px 36px 22px 36px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 4px 0px 9px 0px;
+    //     }
+        
+    //     // .about__item-taxes-img
+
+    //     &-img {
+    //         margin: 0px 0px 19px 0px;
+    //         max-width: 87px;
+    //         max-height: 66px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 9px 0px;
+    //             max-width: 46px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-pension-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 66px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-rosstat
+
+    // .about__item-rosstat {
+    //     padding: 15px 34px 22px 34px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 4px 3px 17px 3px;
+    //     }
+        
+    //     // .about__item-rosstat-img
+
+    //     &-img {
+    //         margin: 0px 0px 16px 0px;
+    //         max-width: 93px;
+    //         max-height: 71px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 9px 0px;
+    //             max-width: 46px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-rosstat-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 60px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-nature
+
+    // .about__item-nature {
+    //     padding: 16px 34px 22px 34px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 5px 4px 9px 4px;
+    //     }
+        
+    //     // .about__item-nature-img
+
+    //     &-img {
+    //         margin: 0px 0px 16px 0px;
+    //         max-width: 92px;
+    //         max-height: 70px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 8px 0px;
+    //             max-width: 46px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-nature-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 60px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-fsrar
+
+    // .about__item-fsrar {
+    //     padding: 16px 34px 22px 34px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 5px 4px 20px 4px;
+    //     }
+        
+    //     // .about__item-nature-img
+
+    //     &-img {
+    //         margin: 0px 0px 16px 0px;
+    //         max-width: 92px;
+    //         max-height: 70px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 8px 0px;
+    //             max-width: 45px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-fsrar-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 59px;
+    //         }
+    //     }
+    // }
+
+
+    // // .about__item-migration
+
+    // .about__item-migration {
+    //     padding: 1px 31px 22px 31px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 5px 0px 10px 0px;
+    //     }
+        
+    //     // .about__item-migration-img
+
+    //     &-img {
+    //         margin: 0px 0px 2px 0px;
+    //         max-width: 99px;
+    //         max-height: 99px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 7px 0px;
+    //             max-width: 56px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-migration-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 59px;
+    //         }
+    //     }
+    // }
+
+    // // .about__item-bank
+
+    // .about__item-bank {
+    //     padding: 16px 34px 22px 34px;
+
+    //     @media (max-width: 768px) {
+    //         padding: 5px 1px 21px 1px;
+    //     }
+        
+    //     // .about__item-bank-img
+
+    //     &-img {
+    //         margin: 0px 0px 17px 0px;
+    //         max-width: 90px;
+    //         max-height: 69px;
+
+    //         @media (max-width: 768px) {
+    //             margin: 0px 0px 7px 0px;
+    //             max-width: 45px;
+    //             max-height: 35px;
+    //         }
+    //     }
+
+    //     // .about__item-bank-text
+
+    //     &-text {
+
+    //         @media (max-width: 768px) {
+    //             max-width: 65px;
+    //         }
+    //     }
+    // }
+
+    
+
+    // .about__content
+
+    &__content {
+        max-width: 592px;
+    }
+
+    // .about__title
+
+    &__title {
+        max-width: 494px;
+
+        @media (max-width: 1330px) {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            margin: 0px 0px 30px 0px;
+        }
+    }
+
+    // .about__text
+
+    &__text {
+        @media (max-width: 1000px) {
+            margin: 30px 0px 0px 0px;
+        }
+    }
+}
