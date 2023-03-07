@@ -115,10 +115,13 @@ body {
   }
   
   .btn-link {
-    text-decoration: underline;
     font-weight: 300;
     font-size: 20px;
     line-height: 140%;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .text-margin-bottom {
