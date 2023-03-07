@@ -1,5 +1,4 @@
 .top {
-    margin: 0px 0px 156px 0px;
     position: relative;
     z-index: 4;
 
@@ -11,7 +10,7 @@
 
     &__row {
         align-items: center;
-        gap: 0px 40px;
+        gap: 30px 40px;
 
         @media (max-width: 1240px) {
             flex-direction: column-reverse;
@@ -38,12 +37,12 @@
     // .top__img-wrap
 
     &__img-wrap {
-        max-width: 600px;
+        max-width: 550px;
         max-height: 400px;
 
         @media (max-width: 768px) {
-            max-width: 272px;
-            max-height: 190px;
+            max-width: 300px;
+            max-height: 250px;
         }
     }
 }

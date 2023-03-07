@@ -1,0 +1,249 @@
+.advantages {
+
+    // .functional__title
+
+    &__title {
+        max-width: 1202px;
+
+        @media (max-width: 1240px) {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            text-align: left;
+            margin: 0px 0px 42px 0px;
+        }
+    }
+
+    // .functional__list
+
+    &__list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        @media (max-width: 1065px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    // .functional__item
+
+    &__item {
+        background: #F9F9F9;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 1065px) {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }        
+    }
+
+    // .functional__item-img
+
+    &__item-img {
+
+        @media (max-width: 768px) {
+            margin: 0px 0px 30px 0px;
+        } 
+    }
+
+    // .functional__item-content
+
+    &__item-content {
+        font-size: 16px;
+        line-height: 140%;
+
+        @media (max-width: 768px) {
+            font-size: 14px;
+            line-height: 140%;
+        }
+    }
+
+    // .functional__item-title
+
+    &__item-title {
+        display: block;
+        margin: 0px 0px 25px 0px;
+        font-weight: 600;
+
+        @media (max-width: 768px) {
+            font-weight: 700;
+        }
+    }
+
+    // .functional__item-text
+
+    &__item-text {
+    }
+}
+
+.safe {
+    max-width: 657px;
+    gap: 0px 31px;
+    padding: 34px 43px 32px 30px;
+
+    @media (max-width: 1065px) {
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {
+        padding: 17px 10px 10px 10px;
+    }
+
+    // .analysis__img
+    
+    &__img {
+        max-width: 143px;
+        max-height: 140px;
+
+        @media (max-width: 768px) {
+            max-width: 77px;
+            max-height: 76px;                
+        }
+    }
+
+    // .analysis__content
+    
+    &__content {
+        max-width: 410px;
+
+        @media (max-width: 768px) {
+            max-width: 90%;
+        }
+    }
+
+}
+
+.guarantee {
+    max-width: 523px;
+    gap: 0px 42px;
+    padding: 34px 16px 32px 45px;
+
+    @media (max-width: 1065px) {
+        max-width: 657px;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {
+        padding: 17px 10px 10px 10px;
+    }
+
+    // .taxes__img
+    
+    &__img {
+        max-width: 118px;
+        max-height: 131px;
+
+        @media (max-width: 768px) {
+            max-width: 64px;
+            max-height: 71px;
+        }
+    }
+
+    // .taxes__content
+    
+    &__content {
+        max-width: 302px;
+
+        @media (max-width: 1065px) {
+            max-width: 430px;
+        }
+
+        @media (max-width: 768px) {
+            max-width: 90%;
+        }
+    }
+}
+
+.support {
+    max-width: 495px;
+    gap: 0px 20px;
+    padding: 30px 25px 52px 21px;
+
+    @media (max-width: 1065px) {
+        max-width: 657px;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {
+        padding: 17px 10px 10px 10px;
+    }
+
+    // .check__img
+    
+    &__img {
+        max-width: 156px;
+        max-height: 149px;
+
+        @media (max-width: 768px) {
+            max-width: 100px;
+            max-height: 95px;
+        }
+    }
+
+    // .check__content
+    
+    &__content {
+        max-width: 273px;
+
+        @media (max-width: 1065px) {
+            max-width: 430px;
+        }
+
+        @media (max-width: 768px) {
+            max-width: 90%;
+        }
+    }
+
+    
+}
+
+.discount {
+    max-width: 683px;
+    gap: 0px 16px;
+    padding: 30px 23px 36px 14px;
+
+    @media (max-width: 1065px) {
+        max-width: 657px;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {
+        padding: 17px 10px 10px 10px;
+    }
+
+    // .attention__img
+    
+    &__img {
+        max-width: 150px;
+        max-height: 130px;
+
+        @media (max-width: 768px) {
+            max-width: 77px;
+            max-height: 76px;
+        }
+    }
+
+
+    // .attention__content
+    
+    &__content {
+        max-width: 456px;
+
+        @media (max-width: 768px) {
+            max-width: 90%;
+        }
+
+    }
+}
+

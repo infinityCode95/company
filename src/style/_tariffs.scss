@@ -50,11 +50,15 @@
             background-color: #00A9DE;
 
             @media (max-width: 768px) {
-                top: 0;
+                top: -8px;
             }
 
-            @media (max-width: 380px) {
-                top: 8px;
+            @media (max-width: 534px) {
+                top: -2px;
+            }
+
+            @media (max-width: 333px) {
+                top: 7px;
             }
         }
     }
