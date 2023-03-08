@@ -1,0 +1,149 @@
+.popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -10;
+    transition: opacity ease .1s;
+
+    // .popup__btn
+
+    &__btn {
+        cursor: pointer;
+    }
+
+    // .popup__active
+
+    &__active {
+        opacity: 1;
+        z-index: 100;
+    }
+
+    // .popup__wrap
+
+    &__wrap {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .popup__content
+
+    &__content {
+        background-color: #fff;
+        color: #000;
+        max-width: 900px;
+        min-width: 250px;
+        padding: 15px 25px;
+
+        max-width: 600px;
+    
+        display: flex;
+        flex-direction: column;
+
+        border: 2px solid #00A9DE;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+
+    // .popup__close
+
+    &__close {
+        max-width: 35px;
+        max-height: 35px;
+        align-self: flex-end;
+        margin: 0px 0px 10px 0px;
+    }
+
+    // .popup__title
+
+    &__title {
+        margin: 0px 0px 12px 0px;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    // .popup__subtitle
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 42px;
+    }
+
+    // .popup__form
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // .popup__form-label
+
+    &__form-label {
+        margin: 0px 0px 10px 0px;
+        display: block;
+    }
+
+    // .popup__form-input
+
+    &__form-input {
+        width: 36vw;
+        max-width: 550px;
+        height: 60px;
+        padding: 0px 0px 0px 16px;
+        margin: 0px 0px 30px 0px;
+        outline: none;
+        border: 1px solid #969797;
+        border-radius: 8px;
+    }
+
+    // .popup__agreement
+
+    &__agreement {
+        display: flex;
+    }
+
+    // .popup__checkbox
+
+    &__checkbox {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #969797;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+
+    // .popup__checkbox-label
+
+    &__checkbox-label {
+        font-weight: 400;
+        font-size: 20px;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    // .popup__form-btn
+
+    &__form-btn {
+        align-self: flex-end;
+        margin: 20px 0px;
+        padding: 16px 36px;
+        background: #10c9c9;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        font-size: 16px;
+    }
+ 
+}
