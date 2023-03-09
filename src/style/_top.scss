@@ -21,6 +21,10 @@
 
     &__content {
         max-width: 469px;
+        
+        @media (max-width: 768px) {
+            text-align: center;
+        }
     }
 
     // .top__title
