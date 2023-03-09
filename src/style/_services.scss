@@ -1,6 +1,6 @@
-.about {
+.services {
 
-    // .about__row
+    // .services__row
 
     &__row {
         align-items: center;
@@ -11,7 +11,7 @@
         }
     }
 
-    // .about__list
+    // .services__list
 
     &__list {
         display: flex;
@@ -24,7 +24,7 @@
         }
     }
 
-    // .about__item
+    // .services__item
 
     &__item {
         padding: 15px;
@@ -46,7 +46,7 @@
         }
     }
 
-    // .about__item-img
+    // .services__item-img
 
     &__item-img {
         margin: 0px 0px 15px 0px;
@@ -54,7 +54,7 @@
         max-height: 60px;
     }
 
-    // .about__item-text
+    // .services__item-text
 
     &__item-text {
         text-align: center;
@@ -71,23 +71,23 @@
     }
 
     
-    // .about__content
+    // .services__content
 
     &__content {
         max-width: 592px;
     }
 
-    // .about__title
+    // .services__title
 
     &__title {
         max-width: 494px;
 
         @media (max-width: 768px) {
-            margin: 0px 0px 30px 0px;
+            max-width: none;
         }
     }
 
-    // .about__text
+    // .services__text
 
     &__text {
         @media (max-width: 1000px) {

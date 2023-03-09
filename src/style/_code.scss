@@ -4,6 +4,7 @@
 
     &__row {
         gap: 30px 90px;
+        align-items: center;
     }
 
     // .code__content
@@ -16,14 +17,8 @@
     &__title {
         max-width: 649px;
 
-        @media (max-width: 1240px) {
-            text-align: center;
-            margin: 0px auto 60px auto;
-        }
-
         @media (max-width: 768px) {
-            margin: 0px 0px 20px 0px;
-            text-align: left;
+            max-width: none;
         }
     }
 
@@ -36,14 +31,12 @@
     // .code__img-wrap
 
     &__img-wrap {
-        margin: -20px 0px 0px 0px;
-        max-width: 501px;
-        max-height: 429px;
+        max-width: 550px;
+        max-height: 400px;
 
         @media (max-width: 768px) {
-            margin: 0px 0px 0px 0px;
-            max-width: 254px;
-            max-height: 218px;
+            max-width: 300px;
+            max-height: 250px;
         }
     }
 }

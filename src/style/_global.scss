@@ -52,6 +52,7 @@ body {
     }
 
     @media (max-width: 768px) {
+      margin: 0px 0px 20px 0px;
       font-weight: 700;
       font-size: 30px;
       line-height: 100%;
@@ -63,10 +64,6 @@ body {
     font-size: 20px;
     line-height: 140%;
 
-    // @media (max-width: 1240px) {
-    //   text-align: center;
-    // }
-  
     @media (max-width: 768px) {
       font-weight: 400;
       font-size: 14px;
@@ -96,7 +93,7 @@ body {
   
           &::before {
               content: "●";
-              color: #072D82;
+              color: #000;
               padding-right: 15px;
           }
       }
@@ -156,8 +153,6 @@ body {
     display: block;
     margin: 30px 0px 0px 0px;
   }
-
-
 
   .container-fluid {
     max-width: 1920px;

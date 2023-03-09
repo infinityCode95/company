@@ -1,18 +1,25 @@
-const popupBtn = document.querySelector(".popup__btn");
+const popupOpenBtn = document.querySelector(".popup__btn-open");
 const popup = document.querySelector(".popup");
 const popupCloseBtn = document.querySelector(".popup__close");
-const topBtn = document.querySelector('.top__btn');
+const sectionTopBtn = document.querySelector(".top__btn");
 
-popupBtn.addEventListener("click", () => {
-  popup.classList.toggle("popup__active");
-});
+const openPopup = () => {
+    popup.style.opacity = 1;
+    popup.style.visibility = "visible";
+    popup.style.zIndex = 100;
+};
 
-topBtn.addEventListener("click", () => {
-  popup.classList.toggle("popup__active");
-});
+const closePopup = (event) => {
+  const target = event.target;
+  
+  if (target === popup || target.closest('.popup__close')) {
+    popup.style.opacity = 0;
+    popup.style.visibility = "hidden";
+    popup.style.zIndex = -10;
+  }
+};
 
-popupCloseBtn.addEventListener("click", () => {
-  popup.classList.remove("popup__active");
-});
+popupOpenBtn.addEventListener("click", openPopup);
+sectionTopBtn.addEventListener("click", openPopup);
+popup.addEventListener("click", closePopup);
 
-document.querySelector("body").style.overflowY = "auto";
